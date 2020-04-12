@@ -1,0 +1,24 @@
+.button_box {
+    display: inline-flex;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color:#141414;
+    cursor: pointer;
+    margin: 5px;
+    font-family:baloo;
+    width:auto;
+}
+
+.button_box:active {
+    background-color: #ffffff;
+}
+
+.button_box_inner::selection {
+    background: none;
+    color: none;
+}
+
+.button_box_inner:hover{
+    background-color:#28524b
+}

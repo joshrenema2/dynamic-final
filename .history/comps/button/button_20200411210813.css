@@ -1,0 +1,16 @@
+.button_box {
+    display: inline-flex;
+    border-radius: 5px;
+    padding: 10px;
+    color:#141414;
+    cursor: pointer;
+    margin: 5px;
+    font-family:baloo;
+    width:auto;
+}
+
+.button_box:hover{
+    background-color:#28524b;
+    color: #f2f2f2;
+}
+

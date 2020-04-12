@@ -1,23 +1,22 @@
 .button_box {
-    background-color:#f2f2f2;
     display: inline-flex;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px;
     color:#141414;
     cursor: pointer;
     margin: 5px 10px;
     font-family:baloo;
+    width:auto;
+    padding:5px;
 }
 
-/* .button_box_inner:hover{
+.button_box_inner a{
+    background-color:#f2f2f2;
+    color: #141414;
+}
+
+.button_box_inner:hover{
     background-color:#28524b;
     color: #f2f2f2;
-} */
-
-.button_box_inner::selection{
-    background:none;
-    color:none;
-} 
-
-
+}
 
