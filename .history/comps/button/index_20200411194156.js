@@ -2,7 +2,7 @@ import React from "react";
 import "./button.css";
 
 const Button = ({text, color, onClick}) => <div 
-style={{backgroundColor:color }}
+style={{backgroundColor:color, boxShadow:"1px 1px 5px "+ color}}
 className="button_box"
 onClick={onClick}
 >
@@ -13,7 +13,8 @@ onClick={onClick}
 
 Button.defaultProps = {
     text:"Default Button",
-    color:"#f2f2f2",
+    color:"#ffffff",
+
 }
 
 export default Button;

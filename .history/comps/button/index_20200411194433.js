@@ -14,6 +14,7 @@ onClick={onClick}
 Button.defaultProps = {
     text:"Default Button",
     color:"#f2f2f2",
+
 }
 
 export default Button;

@@ -1,13 +1,16 @@
+@font-face {
+    font-family: 'baloo';
+    src: local('Baloo'), url(./fonts/FiraSans-Regular.ttf) format('truetype');
+  }
+
 .button_box {
     display: inline-flex;
     border-radius: 5px;
     padding: 10px;
     font-weight: bold;
-    color:#141414;
+    color: black;
     cursor: pointer;
     margin: 5px;
-    font-family:baloo;
-    width:auto;
 }
 
 .button_box:active {

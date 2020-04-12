@@ -1,5 +1,6 @@
 import React from "react";
 import "./button.css";
+import "../fonts/baloo.ttf"
 
 const Button = ({text, color, onClick}) => <div 
 style={{backgroundColor:color }}
@@ -14,6 +15,7 @@ onClick={onClick}
 Button.defaultProps = {
     text:"Default Button",
     color:"#f2f2f2",
+
 }
 
 export default Button;

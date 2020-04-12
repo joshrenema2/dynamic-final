@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006 -c .storybook watch-css ./src",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "repository": {
