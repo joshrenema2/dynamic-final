@@ -12,7 +12,7 @@ const Icon = ({ height, width, img}) => <div
 Icon.defaultProps = {
     width: "30vw",
     height: "30vh",
-    img: defaultImg
+    img={defaultImg},
 }
 
 export default Icon;
