@@ -1,0 +1,12 @@
+html{
+  background-color:#01c280;  
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
+}
+
+.content{
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+}

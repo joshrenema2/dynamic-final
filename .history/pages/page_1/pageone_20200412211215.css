@@ -1,0 +1,9 @@
+html{
+  background-color:#01c280;  
+}
+
+.content{
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+}
