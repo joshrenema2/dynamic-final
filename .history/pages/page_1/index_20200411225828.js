@@ -9,7 +9,7 @@ const PageOne = () => {
 
     return <div>
 <Icon img={dark_logo} />
-<Button text="Start " className="button"/>
+<Button text="Start "/>
     </div>
 }
 
