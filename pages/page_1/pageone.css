@@ -2,8 +2,15 @@ html {
   background-color: #01c280;
 }
 
+.outer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
 .content {
-  margin: auto;
   position: relative;
-  left: 40%;
+  display: inline-flex;
+  flex-direction: column;
 }

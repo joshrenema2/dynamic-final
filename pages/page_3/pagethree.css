@@ -1,0 +1,11 @@
+.waste_options_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waste_options_child {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+}

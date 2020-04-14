@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@800&family=Montserrat&display=swap');
+
+.caption{
+    font-family:"Montserrat";
+    padding: 10px 20px;
+    color:#141414;
+    margin: 0px 10px 40px 10px;
+    display: inline-block;
+    text-align: center;
+}

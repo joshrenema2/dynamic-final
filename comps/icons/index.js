@@ -1,7 +1,7 @@
 import React from "react";
 import "./icons.css";
 
-const defaultImg = require("../../img/boots.png");
+const defaultImg = require("../../img/electronics.png");
 
 const Icon = ({ height, width, img}) => <div
     style={{ width: width, height: height }}
@@ -10,7 +10,7 @@ const Icon = ({ height, width, img}) => <div
 </div>
 
 Icon.defaultProps = {
-    width: "30vw",
+    width: "auto",
     height: "30vh",
     img: defaultImg
 }

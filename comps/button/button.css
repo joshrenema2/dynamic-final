@@ -2,13 +2,16 @@
 
 .button_box {
     background-color:#f2f2f2;
-    display: inline-flex;
     border-radius: 5px;
     padding: 10px 20px;
     color:#141414;
     cursor: pointer;
     margin: 5px 10px;
-    font-family: 'Baloo Paaji 2', cursive;
+    font-family: 'Baloo Paaji 2';
+    display: inline-block;
+    text-align: center;
+    margin:auto;
+    font-size:16pt;
 }
 
 /* .button_box_inner:hover{
