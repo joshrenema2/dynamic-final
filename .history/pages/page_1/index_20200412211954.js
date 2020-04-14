@@ -8,7 +8,7 @@ const dark_logo = require("../../img/logo_dark_green.png");
 const PageOne = () => {
 
     return <div className="content">
-<Icon img={dark_logo} />
+<Icon img:dark_logo />
 <Button text="Start" />
     </div>
 }
