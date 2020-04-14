@@ -1,7 +1,7 @@
 import React from "react";
 import "./icons.css";
 
-const defaultImg = require("../../img/recycle.png");
+const defaultImg = require("../../img/boots.png");
 
 const Icon = ({ height, width, img}) => <div
     style={{ width: width, height: height }}
