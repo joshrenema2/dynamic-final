@@ -7,10 +7,10 @@ const accountimg = require('../../img/account.png')
 const Header = () => <div className="main_header">
         <img src={defaultimg} className="logo"/>
             <div className="line"></div>
-        <p>LEARN</p>
-        <p>TUTORIAL</p>
-        <p>HIGH SCORES</p>
-        <p>IMPORTANCE OF RECYCLING</p>
+        <p className="click">LEARN</p>
+        <p className="click">TUTORIAL</p>
+        <p className="click">HIGH SCORES</p>
+        <p className="click">IMPORTANCE OF RECYCLING</p>
         <p className="settings">SETTINGS</p>
         <div className="rightflex">
             <img src={accountimg} className="accountimage"/>

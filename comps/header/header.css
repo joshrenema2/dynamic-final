@@ -7,7 +7,7 @@ html, body {
 .main_header {
     display: inline-flex;
     background-color: #28524B;
-    height: 12vh;
+    height: 10vh;
     width: 100vw;
     align-items: center;
     justify-content: space-between;
@@ -21,16 +21,19 @@ html, body {
 .logo { 
     max-height: 45px;
     margin-left: 2vw;
+    cursor: pointer;
 }
 
 .settings {
     display: flex;
     flex-basis: 50%;
+    cursor: pointer;
 }
 
 .accountimage { 
     max-height: 35px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .line {
@@ -49,4 +52,9 @@ html, body {
 
 .name {
     margin-right: 20px;
+    cursor: pointer;
+}
+
+.click{
+    cursor: pointer;
 }
