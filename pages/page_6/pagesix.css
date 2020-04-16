@@ -1,0 +1,30 @@
+.organic_option_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organic_option_child {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info {
+    padding-bottom: 5%;
+    display: inline-block;
+    font-size: large;
+    text-emphasis: center;
+}
+
+.button_nav{
+    text-align: center;
+    display: inline-flex;
+}
+
+.button{
+    flex-wrap: nowrap;
+    word-spacing: 120px;
+}
+
