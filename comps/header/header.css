@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+.main_header {
+    display: inline-flex;
+    background-color: #28524B;
+    height: 12vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Manrope';
+    flex-direction: row;
+    color: #FFFFFF;
+    font-size: 11pt; 
+    align-content: flex-start;
+}
+
+.logo { 
+    max-height: 45px;
+    margin-left: 2vw;
+}
+
+.settings {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.accountimage { 
+    max-height: 35px;
+    margin-right: 10px;
+}
+
+.line {
+    border-left: 1px solid #FFFFFF;
+    height: 30px;
+    margin-left: -2%;
+    margin-right: -2%
+}
+
+.rightflex {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.name {
+    margin-right: 20px;
+}
