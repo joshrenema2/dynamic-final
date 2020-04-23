@@ -14,6 +14,21 @@
     font-size:16pt;
 }
 
+.button_box:hover {
+    -webkit-animation: bounce .4s infinite alternate;
+    -moz-animation: bounce .4s infinite alternate;
+    animation: bounce .4s infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+to { -webkit-transform: scale(1.05); }
+}
+@-moz-keyframes bounce {
+to { -moz-transform: scale(1.05); }
+}
+@keyframes bounce {
+to { transform: scale(1.05); }
+}
 /* .button_box_inner:hover{
     background-color:#28524b;
     color: #f2f2f2;

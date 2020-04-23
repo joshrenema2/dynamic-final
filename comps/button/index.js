@@ -13,7 +13,7 @@ onClick={onClick}
 
 Button.defaultProps = {
     text:"Default Button",
-    color:"#f2f2f2",
+    // color:"#f2f2f2",
     width:"150px",
 }
 
