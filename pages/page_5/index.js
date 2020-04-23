@@ -5,6 +5,7 @@ import Title from "../../comps/title";
 import Icon from "../../comps/icons";
 import Caption from "../../comps/caption";
 import Header from "../../comps/header";
+import Link from "next/link";
 
 const banana = require("../../img/banana.png");
 
@@ -25,7 +26,7 @@ const PageFive = () => {
               this is some sample text where actual important info would go and
               not just gibberish of i don't know what i am talking about hehe xD
             </div>
-              <Button text="Next" />
+            <Link href="/page_6"><Button text="Next" /></Link>
             </div>
           </div>
         </div>

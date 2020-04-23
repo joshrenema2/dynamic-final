@@ -5,6 +5,7 @@ import Title from "../../comps/title";
 import Icon from "../../comps/icons";
 import Caption from "../../comps/caption";
 import Header from "../../comps/header";
+import Link from "next/link";
 
 const compost = require("../../img/compost.png");
 const trash = require("../../img/trash.png");
@@ -22,7 +23,7 @@ const PageThree = () => {
 
                                     <div className="waste_options_child">
                                         <Icon img={compost} />
-                                        <Button text="Compost" />
+                                        <Link href="/page_4"><Button text="Compost" /></Link>
                                     </div>
 
                                     <div className="waste_options_child">

@@ -5,6 +5,7 @@ import Title from "../../comps/title";
 import Icon from "../../comps/icons";
 import Caption from "../../comps/caption";
 import Header from "../../comps/header";
+import Link from "next/link";
 
 const banana = require("../../img/banana.png");
 const grounds = require("../../img/grounds.png");
@@ -16,17 +17,17 @@ const PageFour = () => {
                 <div><Header /></div>
                 <div className="outer_box">
                     <div className="content">
-                                <Title text="Choose a Organic Type" />
+                                <Title text="Choose an Organic Type" />
                                 <div className="organic_option_parent">
 
                                     <div className="organic_option_child">
                                         <Icon img={banana} />
-                                        <Button text="banana" />
+                                        <Link href="/page_5"><Button text="banana" /></Link>
                                     </div>
 
                                     <div className="organic_option_child">
                                         <Icon img={grounds} />
-                                        <Button text="grounds" />
+                                        <Button text="coffee grounds" />
                                     </div>
 
                                     <div className="organic_option_child">

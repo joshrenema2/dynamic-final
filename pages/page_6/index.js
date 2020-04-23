@@ -5,6 +5,7 @@ import Title from "../../comps/title";
 import Icon from "../../comps/icons";
 import Caption from "../../comps/caption";
 import Header from "../../comps/header";
+import Link from "next/link";
 
 const banana = require("../../img/banana.png");
 
@@ -26,8 +27,9 @@ const PageSix = () => {
               not just gibberish of i don't know what i am talking about hehe xD
             </div>
             <div className="button_nav">   
-              <Button text="Back to Compost"  className="button" />
-              <Button text="Back to Start" className="button"/>
+            <Link href="/page_4"><Button text="Back to Compost" width="150px" className="button"/></Link>
+            <Link href="/page_1"><Button text="Home" width="150px" className="button"/></Link>
+            <Link href="/page_3"><Button text="Back to Waste Types" className="button"/></Link>
             </div>
             </div>
           </div>

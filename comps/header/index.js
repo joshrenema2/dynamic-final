@@ -1,11 +1,12 @@
 import React from "react";
 import "./header.css"
+import Link from "next/link";
 
 const defaultimg = require('../../img/logo_light_green.png')
 const accountimg = require('../../img/account.png')
 
 const Header = () => <div className="main_header">
-        <img src={defaultimg} className="logo"/>
+        <Link href="../../page_1"><img src={defaultimg} className="logo"/></Link>
             <div className="line"></div>
         <p className="click">LEARN</p>
         <p className="click">TUTORIAL</p>
