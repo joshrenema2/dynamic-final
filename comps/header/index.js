@@ -6,7 +6,7 @@ const defaultimg = require('../../img/logo_light_green.png')
 const accountimg = require('../../img/account.png')
 
 const Header = () => <div className="main_header">
-        <Link href="../../page_1"><img src={defaultimg} className="logo"/></Link>
+        <Link href="../../1-home"><img src={defaultimg} className="logo"/></Link>
             <div className="line"></div>
         <p className="click">LEARN</p>
         <p className="click">TUTORIAL</p>

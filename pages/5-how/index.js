@@ -22,11 +22,9 @@ const PageFive = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={banana} />
-            <div className="organic_option_info info">
-              this is some sample text where actual important info would go and
-              not just gibberish of i don't know what i am talking about hehe xD
-            </div>
-            <Link href="/page_6"><Button text="Next" /></Link>
+              <Caption text="this is some sample text where actual important info would go and
+              not just gibberish of i don't know what i am talking about hehe xD" />
+              <Link href="/6-why"><Button text="Next" /></Link>
             </div>
           </div>
         </div>

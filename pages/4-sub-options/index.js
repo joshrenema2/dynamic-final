@@ -1,5 +1,5 @@
 import React from "react";
-import "./pagefour.css"
+import "./sub-options.css"
 import Button from "../../comps/button";
 import Title from "../../comps/title";
 import Icon from "../../comps/icons";
@@ -22,7 +22,7 @@ const PageFour = () => {
 
                                     <div className="organic_option_child">
                                         <Icon img={banana} />
-                                        <Link href="/page_5"><Button text="banana" /></Link>
+                                        <Link href="/5-how"><Button text="banana" /></Link>
                                     </div>
 
                                     <div className="organic_option_child">

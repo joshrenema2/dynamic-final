@@ -1,5 +1,5 @@
 import React from "react";
-import "./pageone.css"
+import "./home.css"
 import Button from "../../comps/button";
 import Icon from "../../comps/icons";
 import Header from "../../comps/header";
@@ -13,7 +13,7 @@ const PageOne = () => {
         <div className="outer_box">
             <div className="content">
                 <Icon img={dark_logo} />
-                <Link href="/page_2"><Button text="Start" width="75px" /></Link>
+                <Link href="/2-learn"><Button text="Start" width="75px" /></Link>
             </div>
         </div>
     </div>
