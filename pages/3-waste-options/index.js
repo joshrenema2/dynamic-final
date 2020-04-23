@@ -1,5 +1,5 @@
 import React from "react";
-import "./pagethree.css"
+import "./waste-options.css"
 import Button from "../../comps/button";
 import Title from "../../comps/title";
 import Icon from "../../comps/icons";
@@ -23,7 +23,7 @@ const PageThree = () => {
 
                                     <div className="waste_options_child">
                                         <Icon img={compost} />
-                                        <Link href="/page_4"><Button text="Compost" /></Link>
+                                        <Link href="/4-sub-options"><Button text="Compost" /></Link>
                                     </div>
 
                                     <div className="waste_options_child">

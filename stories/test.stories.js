@@ -3,12 +3,12 @@ import Button from "../comps/button";
 import Icon from "../comps/icons";
 import Title from "../comps/title";
 import Caption from "../comps/caption";
-import PageOne from "../pages/page_1";
-import PageTwo from "../pages/page_2";
-import PageThree from "../pages/page_3";
-import PageFour from "../pages/page_4";
-import PageFive from "../pages/page_5";
-import PageSix from "../pages/page_6";
+import Home from "../pages/1-home";
+import Learn from "../pages/2-learn";
+import WasteOptions from "../pages/3-waste-options";
+import SubOptions from "../pages/4-sub-options";
+import How from "../pages/5-how";
+import Why from "../pages/6-why";
 import Header from "../comps/header";
 
 export default {
@@ -23,17 +23,17 @@ export const MyTitle = () => <Title />;
 
 export const MyCaption = () => <Caption />;
 
-export const MyPageOne = () => <PageOne />;
+export const MyHome = () => <Home />;
 
-export const MyPageTwo = () => <PageTwo />;
+export const MyLearn = () => <Learn />;
 
-export const MyPageThree = () => <PageThree />;
+export const MyWasteOptions = () => <WasteOptions />;
 
-export const MyPageFour = () => <PageFour />;
+export const MySubOptions = () => <SubOptions />;
 
-export const MyPageFive = () => <PageFive />;
+export const MyHow = () => <How />;
 
-export const MyPageSix = () => <PageSix />;
+export const MyWhy = () => <Why />;
 
 export const MainHeader = () => <Header />; 
 

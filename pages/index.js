@@ -4,27 +4,27 @@ import "./index.css"
 
 const Index= () => <div className="main_app">
 
-<Link href="/page_1">page 1</Link>
+<Link href="/1-home">Home</Link>
 
 <p/>
 
-<Link href="/page_2">page 2</Link>
+<Link href="/2-learn">Learn</Link>
 
 <p/>
 
-<Link href="/page_3">page_3</Link>
+<Link href="/3-waste-options">Waste Options</Link>
 
 <p/>
 
-<Link href="/page_4">page 4</Link>
+<Link href="/4-sub-options">Sub Options</Link>
 
 <p/>
 
-<Link href="/page_5">page 5</Link>
+<Link href="/5-how">How</Link>
 
 <p/>
 
-<Link href="/page_6">page 6</Link>
+<Link href="/6-why">Why</Link>
 
 </div>
 
