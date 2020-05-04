@@ -27,7 +27,7 @@ const Recycle = () => {
 
                                     <div className="organic_option_child">
                                         <Icon img={cardboard} />
-                                        <Link href="/5-how/recycle/box"><Button text="Box" /></Link>
+                                        <Link href="/5-how/recycle/box"><Button text="Cardboard Box" /></Link>
 
                                     </div>
 

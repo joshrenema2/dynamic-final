@@ -22,10 +22,10 @@ const Banana = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={banana} />
-                <Caption text="this is some sample text where actual important info would go and
-              not just gibberish of i don't know what i am talking about hehe xD" />
+                <Caption text="Bananas are a compostable food, compost is decomposed organic material that can provide many essential nutrients for plant growth! 
+" />
               <div className="button_nav">
-                <Link href="/4-sub-options"><Button text="Back to Compost" width="150px" className="button" /></Link>
+                <Link href="/4-sub-options/compost"><Button text="Back to Compost" width="150px" className="button" /></Link>
                 <Link href="/1-home"><Button text="Home" width="150px" className="button" /></Link>
                 <Link href="/3-waste-options"><Button text="Back to Waste Types" className="button" /></Link>
               </div>

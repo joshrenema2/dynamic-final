@@ -25,7 +25,7 @@ const Battery = () => {
                 text="Household batteries can be dropped off at your local recycling depot for disposal. 
                 "
               />
-              <Link href="/6-why/compost/battery">
+              <Link href="/6-why/electronics/battery">
                 <Button text="Next" />
               </Link>
             </div>

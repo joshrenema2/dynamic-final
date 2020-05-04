@@ -25,7 +25,7 @@ const Lightbulb = () => {
                 text="Incandescent light bulbs can be tossed into the waste bin. If the glass is broken, you can wrap it in paper before disposal.  Fluorescent light bulbs contain amounts of Mercury, a dangerous chemical. These lightbulbs can be dropped off at your local Recycling depot.  
                 "
               />
-              <Link href="/6-why/compost/lightbulb">
+              <Link href="/6-why/electronics/lightbulb">
                 <Button text="Next" />
               </Link>
             </div>
