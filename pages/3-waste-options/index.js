@@ -23,22 +23,22 @@ const PageThree = () => {
 
                                     <div className="waste_options_child">
                                         <Icon img={compost} />
-                                        <Link href="/4-sub-options"><Button text="Compost" /></Link>
+                                        <Link href="/4-sub-options/compost"><Button text="Compost" /></Link>
                                     </div>
 
                                     <div className="waste_options_child">
                                         <Icon img={trash} />
-                                        <Button text="Trash" />
+                                        <Link href="/4-sub-options/trash"><Button text="Trash" /></Link>
                                     </div>
 
                                     <div className="waste_options_child">
                                         <Icon img={recycle} />
-                                        <Button text="Recycle" />
+                                        <Link href="/4-sub-options/recycle"><Button text="Recycle" /></Link>
                                     </div>
 
                                     <div className="waste_options_child">
                                         <Icon img={electronics} />
-                                        <Button text="Electronics" />
+                                        <Link href="/4-sub-options/electronics"><Button text="Electronics" /></Link>
                                     </div>
                                 </div>
                         </div>

@@ -7,11 +7,11 @@ import Caption from "../../comps/caption";
 import Header from "../../comps/header";
 import Link from "next/link";
 
-const banana = require("../../img/banana.png");
-const grounds = require("../../img/grounds.png");
-const clippings = require("../../img/clippings.png");
+const battery = require("../../img/battery.png");
+const lightbulb = require("../../img/lightbulb.png");
+const tv = require("../../img/tv.png");
 
-const PageFour = () => {
+const Electronics = () => {
 
     return <div>
                 <div><Header /></div>
@@ -21,18 +21,20 @@ const PageFour = () => {
                                 <div className="organic_option_parent">
 
                                     <div className="organic_option_child">
-                                        <Icon img={banana} />
-                                        <Link href="/5-how"><Button text="banana" /></Link>
+                                        <Icon img={battery} />
+                                        <Link href="/5-how/electronics/battery"><Button text="Battery" /></Link>
                                     </div>
 
                                     <div className="organic_option_child">
-                                        <Icon img={grounds} />
-                                        <Button text="coffee grounds" />
+                                        <Icon img={lightbulb} />
+                                        <Link href="/5-how/electronics/lightbulb"><Button text="Lightbulb" /></Link>
+
                                     </div>
 
                                     <div className="organic_option_child">
-                                        <Icon img={clippings} />
-                                        <Button text="clippings" />
+                                        <Icon img={tv} />
+                                        <Link href="/5-how/electronics/tv"><Button text="Old TV" /></Link>
+
                                     </div>
                                 </div>
                         </div>
@@ -40,4 +42,4 @@ const PageFour = () => {
             </div>
 }
 
-export default PageFour;
+export default Electronics;

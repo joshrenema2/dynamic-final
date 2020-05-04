@@ -6,9 +6,9 @@ import Caption from "../comps/caption";
 import Home from "../pages/1-home";
 import Learn from "../pages/2-learn";
 import WasteOptions from "../pages/3-waste-options";
-import SubOptions from "../pages/4-sub-options";
-import How from "../pages/5-how";
-import Why from "../pages/6-why";
+import SubOptions from "../pages/4-sub-options/compost";
+import How from "../pages/5-how/compost/banana";
+import Why from "../pages/6-why/compost/banana";
 import Header from "../comps/header";
 
 export default {
@@ -36,10 +36,4 @@ export const MyHow = () => <How />;
 export const MyWhy = () => <Why />;
 
 export const MainHeader = () => <Header />; 
-
-
-
-
-
-
 
