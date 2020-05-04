@@ -25,7 +25,7 @@ const OldTv = () => {
                 text="TV’s can be dropped off at your local Recycling depot. If the TV is in working condition, consider donating it to a charity! 
                 "
               />
-              <Link href="/6-why/compost/tv">
+              <Link href="/6-why/electronics/tv">
                 <Button text="Next" />
               </Link>
             </div>
