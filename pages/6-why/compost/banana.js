@@ -1,16 +1,16 @@
 import React from "react";
-import "./why.css";
-import Button from "../../comps/button";
-import Title from "../../comps/title";
-import Icon from "../../comps/icons";
-import Caption from "../../comps/caption";
-import Header from "../../comps/header";
+import "../why.css";
+import Button from "../../../comps/button";
+import Title from "../../../comps/title";
+import Icon from "../../../comps/icons";
+import Caption from "../../../comps/caption";
+import Header from "../../../comps/header";
 import Link from "next/link";
 
-const banana = require("../../img/banana.png");
+const banana = require("../../../img/banana.png");
 
 
-const PageSix = () => {
+const Banana = () => {
   return (
     <div>
       <div>
@@ -37,4 +37,4 @@ const PageSix = () => {
   );
 };
 
-export default PageSix;
+export default Banana;
