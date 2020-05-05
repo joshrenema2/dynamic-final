@@ -21,7 +21,7 @@ const Cup = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={cup} />
-              <Caption text="Grass cup are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="Styrofoam is made of a material that is harmful to the environment, and very difficult to repurpose or recycle. It is essential that you drop it off at a local Recycling depot. " />
               <div className="button_nav">
                 <Link href="/4-sub-options/trash">
                   <Button

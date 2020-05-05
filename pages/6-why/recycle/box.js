@@ -21,7 +21,7 @@ const Box = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={box} />
-              <Caption text="Grass box are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="Cardboard is made of a very valuable material, which can be recycled and reused in multiple ways. " />
               <div className="button_nav">
                 <Link href="/4-sub-options/recycle">
                   <Button

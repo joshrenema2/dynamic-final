@@ -21,7 +21,7 @@ const Egg = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={egg} />
-              <Caption text="Grass egg are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="Egg cartons are made of styrofoam, which is harmful to the environment. It is important to dispose of them recycling, so they don’t end up in our landfills. " />
               <div className="button_nav">
                 <Link href="/4-sub-options/recycle">
                   <Button
