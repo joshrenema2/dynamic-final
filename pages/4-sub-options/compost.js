@@ -27,7 +27,7 @@ const Compost = () => {
 
                                     <div className="organic_option_child">
                                         <Icon img={grounds} />
-                                        <Link href="/5-how/compost/grounds"><Button text="Coffee Grounds" /></Link>
+                                        <Link href="/5-how/compost/grounds"><Button text="Coffee Grounds" width="160px"/></Link>
 
                                     </div>
 
