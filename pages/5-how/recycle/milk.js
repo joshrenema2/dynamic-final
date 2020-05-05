@@ -25,7 +25,7 @@ const Milk = () => {
                 text="Milk jugs can go into your Blue box as per your curbside recycling program.
                 "
               />
-              <Link href="/6-why/compost/milk">
+              <Link href="/6-why/recycle/milk">
                 <Button text="Next" />
               </Link>
             </div>

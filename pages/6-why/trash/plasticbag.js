@@ -21,7 +21,7 @@ const Plastic = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={plastic} />
-              <Caption text="Grass plastic are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="It is important to recycle and repurpose plastic bags as it is harmful to the environment. It is made of a material that cannot organically decompose, so it stays on the earth for years! " />
               <div className="button_nav">
                 <Link href="/4-sub-options/trash">
                   <Button

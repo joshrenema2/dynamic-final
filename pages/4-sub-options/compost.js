@@ -22,18 +22,18 @@ const Compost = () => {
 
                                     <div className="organic_option_child">
                                         <Icon img={banana} />
-                                        <Link href="/5-how/compost/banana"><Button text="banana" /></Link>
+                                        <Link href="/5-how/compost/banana"><Button text="Banana" /></Link>
                                     </div>
 
                                     <div className="organic_option_child">
                                         <Icon img={grounds} />
-                                        <Link href="/5-how/compost/grounds"><Button text="coffee grounds" /></Link>
+                                        <Link href="/5-how/compost/grounds"><Button text="Coffee Grounds" /></Link>
 
                                     </div>
 
                                     <div className="organic_option_child">
                                         <Icon img={clippings} />
-                                        <Link href="/5-how/compost/clippings"><Button text="clippings" /></Link>
+                                        <Link href="/5-how/compost/clippings"><Button text="Clippings" /></Link>
                                     </div>
                                 </div>
                         </div>
