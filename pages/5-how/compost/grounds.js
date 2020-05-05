@@ -1,5 +1,5 @@
 import React from "react";
-import "../pagefive.css";
+import "../how.css";
 import Button from "../../../comps/button";
 import Title from "../../../comps/title";
 import Icon from "../../../comps/icons";

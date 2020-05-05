@@ -9,12 +9,20 @@ html, body {
     height: 10vh;
     width: 100vw;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: 'Manrope';
     flex-direction: row;
     color: #FFFFFF;
     font-size: 11pt; 
     align-content: flex-start;
+}
+
+.leftflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
 }
 
 .logo { 
@@ -38,8 +46,8 @@ html, body {
 .line {
     border-left: 1px solid #FFFFFF;
     height: 30px;
-    margin-left: -2%;
-    margin-right: -2%
+    margin-left: 5%;
+    margin-right: -2%;
 }
 
 .rightflex {
@@ -56,4 +64,11 @@ html, body {
 
 .click{
     cursor: pointer;
+}
+
+.main_header_box{
+    display:flex;
+    flex-direction: row;
+    width:500px;
+    justify-content: space-evenly;
 }
