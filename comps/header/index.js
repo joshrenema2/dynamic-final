@@ -18,7 +18,7 @@ const Header = () => <div className="main_header">
 
     <div className="rightflex">
         <img src={accountimg} className="accountimage" />
-        <p className="name">Noobslayer</p>
+        <p className="name">TestUser</p>
     </div>
 </div>
 
