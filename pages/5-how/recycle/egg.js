@@ -15,9 +15,9 @@ const Egg = () => {
       <div>
         <Header />
       </div>
-      <div className="outer_egg">
+      <div className="outer_box">
         <div className="content">
-          <Title text="Egg Carton - How" />
+          <Title text="Egg Cartons - How" />
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={egg} />

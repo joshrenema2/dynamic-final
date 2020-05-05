@@ -17,7 +17,7 @@ const Recycle = () => {
                 <div><Header /></div>
                 <div className="outer_box">
                     <div className="content">
-                                <Title text="Choose an Organic Type" />
+                                <Title text="Choose a Recycle Type" />
                                 <div className="organic_option_parent">
 
                                     <div className="organic_option_child">
@@ -27,13 +27,13 @@ const Recycle = () => {
 
                                     <div className="organic_option_child">
                                         <Icon img={cardboard} />
-                                        <Link href="/5-how/recycle/box"><Button text="Cardboard Box" /></Link>
+                                        <Link href="/5-how/recycle/box"><Button text="Cardboard Boxes" width="170px" /></Link>
 
                                     </div>
 
                                     <div className="organic_option_child">
                                         <Icon img={egg} />
-                                        <Link href="/5-how/recycle/egg"><Button text="Egg Carton" /></Link>
+                                        <Link href="/5-how/recycle/egg"><Button text="Egg Cartons" /></Link>
 
                                     </div>
                                 </div>

@@ -17,7 +17,7 @@ const OldTv = () => {
       </div>
       <div className="outer_box">
         <div className="content">
-          <Title text="Old TV - How" />
+          <Title text="Old TV's - How" />
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={tv} />

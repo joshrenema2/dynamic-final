@@ -17,12 +17,12 @@ const Box = () => {
       </div>
       <div className="outer_box">
         <div className="content">
-          <Title text="Cardboard - How" />
+          <Title text="Cardboard Boxes - How" />
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={box} />
               <Caption
-                text="Cardboard can be flattened and placed into your Yellow bag. 
+                text="Cardboard boxes can be flattened and placed into your Yellow bag. 
                 "
               />
               <Link href="/6-why/recycle/box">

@@ -17,7 +17,7 @@ const Plastic = () => {
       </div>
       <div className="outer_box">
         <div className="content">
-          <Title text="Plastic Bag - How" />
+          <Title text="Plastic Bags - How" />
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={plastic} />

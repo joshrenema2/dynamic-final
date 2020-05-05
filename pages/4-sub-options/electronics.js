@@ -17,23 +17,23 @@ const Electronics = () => {
                 <div><Header /></div>
                 <div className="outer_box">
                     <div className="content">
-                                <Title text="Choose an Organic Type" />
+                                <Title text="Choose an Electronic Type" />
                                 <div className="organic_option_parent">
 
                                     <div className="organic_option_child">
                                         <Icon img={battery} />
-                                        <Link href="/5-how/electronics/battery"><Button text="Battery" /></Link>
+                                        <Link href="/5-how/electronics/battery"><Button text="Batteries" /></Link>
                                     </div>
 
                                     <div className="organic_option_child">
                                         <Icon img={lightbulb} />
-                                        <Link href="/5-how/electronics/lightbulb"><Button text="Lightbulb" /></Link>
+                                        <Link href="/5-how/electronics/lightbulb"><Button text="Lightbulbs" /></Link>
 
                                     </div>
 
                                     <div className="organic_option_child">
                                         <Icon img={tv} />
-                                        <Link href="/5-how/electronics/tv"><Button text="Old TV" /></Link>
+                                        <Link href="/5-how/electronics/tv"><Button text="Old TV's" /></Link>
 
                                     </div>
                                 </div>

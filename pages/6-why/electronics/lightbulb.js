@@ -17,7 +17,7 @@ const Lightbulb = () => {
       </div>
       <div className="outer_box">
         <div className="content">
-          <Title text="Lightbulb - Why" />
+          <Title text="Lightbulbs - Why" />
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={lightbulb} />

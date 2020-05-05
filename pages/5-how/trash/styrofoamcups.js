@@ -25,7 +25,7 @@ const Cup = () => {
                 text="Cup bags can be stored in your home, and dropped off to a Recycling depot in bulk.  
                 "
               />
-              <Link href="/6-why/trash/cup">
+              <Link href="/6-why/trash/styrofoamcups">
                 <Button text="Next" />
               </Link>
             </div>

@@ -6,7 +6,7 @@ html, body {
 .main_header {
     display: inline-flex;
     background-color: #28524B;
-    height: 10vh;
+    height: 9.6vh;
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;

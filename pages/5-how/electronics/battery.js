@@ -17,7 +17,7 @@ const Battery = () => {
       </div>
       <div className="outer_box">
         <div className="content">
-          <Title text="Battery - How" />
+          <Title text="Batteries - How" />
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={battery} />
