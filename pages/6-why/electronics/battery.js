@@ -21,7 +21,7 @@ const Battery = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={battery} />
-              <Caption text="Grass battery are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="When batteries decompose in landfills, the chemicals they are composed of can leak into the ground which can cause soil and water pollution!  " />
               <div className="button_nav">
                 <Link href="/4-sub-options/electronics">
                   <Button

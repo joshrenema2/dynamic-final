@@ -21,7 +21,7 @@ const Boots = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={boots} />
-              <Caption text="Grass boots are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="Rubber boots are sturdy, and once you grow out of your pair is it important to donate them to someone less fortunate! " />
               <div className="button_nav">
                 <Link href="/4-sub-options/trash">
                   <Button

@@ -21,7 +21,7 @@ const Lightbulb = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={lightbulb} />
-              <Caption text="Grass lightbulb are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="Much like batteries, fluorescent light bulbs contain chemicals that, when leaked into the ground, can cause pollution. " />
               <div className="button_nav">
                 <Link href="/4-sub-options/electronics">
                   <Button

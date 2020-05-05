@@ -21,7 +21,7 @@ const Oldtv = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={tv} />
-              <Caption text="Grass tv are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="TV’s are made of components that contain valuable material. If they aren’t recycled properly, the chemicals they are made of can leak into the ground and cause water and soil pollution! " />
               <div className="button_nav">
                 <Link href="/4-sub-options/electronics">
                   <Button

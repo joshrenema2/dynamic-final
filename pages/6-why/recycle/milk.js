@@ -21,7 +21,7 @@ const Milk = () => {
           <div className="organic_option_parent">
             <div className="organic_option_child">
               <Icon img={milk} />
-              <Caption text="Grass milk are a great additive to the compost mix because they provide all the right nutrients for plant growth! " />
+              <Caption text="Recycling milk jugs is important as they are made of plastic, and we have to try our best to keep them out of our landfills! " />
               <div className="button_nav">
                 <Link href="/4-sub-options/recycle">
                   <Button
