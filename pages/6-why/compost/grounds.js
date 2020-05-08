@@ -38,7 +38,7 @@ const Grounds = () => {
                   <Button text="Home" width="150px" className="button" />
                 </Link>
                 <Link href="/3-waste-options">
-                  <Button text="Back to Waste Types" className="button" />
+                  <Button text="Waste Types" className="button" />
                 </Link>
               </div>
             </div>

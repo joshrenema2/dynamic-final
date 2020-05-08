@@ -1,11 +1,28 @@
-.waste_options_parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .waste_options_parent {
+        display: grid;
+        grid-template-columns:repeat(2, 50% [col-start]);
+        height:60vh;
+    }
+    
+    .waste_options_child {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+        max-height:30vh;
+    }
 }
 
-.waste_options_child {
-    position: relative;
-    display: inline-flex;
-    flex-direction: column;
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .waste_options_parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .waste_options_child {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+    }
 }

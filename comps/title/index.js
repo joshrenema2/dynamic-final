@@ -1,15 +1,14 @@
 import React from "react";
 import "./title.css";
 
-const Title = ({size, text}) => <div
-    style={{fontSize:size}}
+const Title = ({ text }) => <div className="title_container"><div
     className="title">
     {text}
 </div>
+</div>
 
 Title.defaultProps = {
-    size:"48pt",
-    text:"Header"
+    text: "Header"
 }
 
 export default Title;

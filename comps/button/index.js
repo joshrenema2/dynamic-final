@@ -1,8 +1,7 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({text, color, onClick, width}) => <div 
-style={{backgroundColor:color, width:width }}
+const Button = ({text, onClick}) => <div className="button_container"><div 
 className="button_box"
 onClick={onClick}
 >
@@ -10,10 +9,10 @@ onClick={onClick}
         {text}
     </div>
 </div>
+</div>
 
 Button.defaultProps = {
     text:"Default Button",
-    // color:"#f2f2f2",
     width:"150px",
 }
 

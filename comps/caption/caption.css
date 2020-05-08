@@ -1,3 +1,16 @@
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .caption{
+        font-family:"Montserrat";
+        color:#141414;
+        margin: 0px 10px 40px 35px;
+        display: inline-block;
+        align-items:center;
+        font-size:12pt;
+        max-width:auto;
+}
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 .caption{
     font-family:"Montserrat";
     padding: 10px 20px;
@@ -5,4 +18,7 @@
     margin: 0px 10px 40px 10px;
     display: inline-block;
     text-align: center;
+    font-size:16pt;
+    max-width:60vw;
+}
 }
