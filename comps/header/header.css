@@ -152,7 +152,5 @@
         flex-direction: row;
         width: 35vw;
         justify-content: space-evenly;
-        border:1px solid red;
-
     }
 }
