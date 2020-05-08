@@ -10,7 +10,7 @@ const Icon = ({ height, width, img}) => <div
 </div>
 
 Icon.defaultProps = {
-    width: "auto",
+    width: "20vw",
     height: "30vh",
     img: defaultImg
 }

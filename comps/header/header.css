@@ -1,74 +1,158 @@
-html, body {
-    margin: 0;
-    background-color: #01c280;
+@media (min-width:320px) {
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    html,
+    body {
+        margin: 0;
+        background-color: #01c280;
+    }
+
+    .main_header {
+        display: inline-flex;
+        background-color: #28524B;
+        height: 6em;
+        width: 100%;
+        align-items: center;
+        font-family: 'Manrope';
+        flex-direction: row;
+        color: #FFFFFF;
+    }
+
+    .leftflex {
+        display: flex;
+    }
+
+    .hamburger_menu {
+        max-height: 35px;
+        cursor: pointer;
+        margin-left: 1.5em;
+    }
+
+    .logo {
+        max-height: 45px;
+        margin-right: 1.5em;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 1.59em;
+    }
+
+    .settings {}
+
+    .accountimage {
+        height: 0px;
+    }
+
+    .line {}
+
+    .rightflex {}
+
+    .name {
+        font-size: 0pt;
+        cursor: pointer;
+
+    }
+
+    .click {
+        cursor: pointer;
+        display: none;
+    }
+
+    .main_header_box {}
 }
 
-.main_header {
-    display: inline-flex;
-    background-color: #28524B;
-    height: 9.6vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: 'Manrope';
-    flex-direction: row;
-    color: #FFFFFF;
-    font-size: 11pt; 
-    align-content: flex-start;
+@media (min-width:768px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
 }
 
-.leftflex{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: absolute;
-    left: 0;
-}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
 
-.logo { 
-    max-height: 45px;
-    margin-left: 2vw;
-    cursor: pointer;
-}
+    html,
+    body {
+        margin: 0;
+        background-color: #01c280;
+    }
 
-.settings {
-    display: flex;
-    flex-basis: 50%;
-    cursor: pointer;
-}
+    .main_header {
+        display: inline-flex;
+        background-color: #28524B;
+        height: 9.6vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Manrope';
+        flex-direction: row;
+        color: #FFFFFF;
+        font-size: 11pt;
+        align-content: flex-start;
+    }
 
-.accountimage { 
-    max-height: 35px;
-    margin-right: 10px;
-    cursor: pointer;
-}
+    .leftflex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        left: 0;
+    }
 
-.line {
-    border-left: 1px solid #FFFFFF;
-    height: 30px;
-    margin-left: 5%;
-    margin-right: -2%;
-}
+    .hamburger_menu {
+        display: none;
+    }
 
-.rightflex {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 0;
-}
+    .logo {
+        max-height: 45px;
+        margin-left: 1.5em;
+        cursor: pointer;
+        display:absolute;
+        left:0;
+        top:0;
+    }
 
-.name {
-    margin-right: 20px;
-    cursor: pointer;
-}
+    .settings {
+        display: flex;
+        flex-basis: 50%;
+        cursor: pointer;
+    }
 
-.click{
-    cursor: pointer;
-}
+    .accountimage {
+        max-height: 35px;
+        margin-right: 10px;
+        cursor: pointer;
+        height: auto;
+    }
 
-.main_header_box{
-    display:flex;
-    flex-direction: row;
-    width:500px;
-    justify-content: space-evenly;
+    .line {
+        border-left: 1px solid #FFFFFF;
+        height: 30px;
+        margin-left: 7em;
+    }
+
+    .rightflex {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+    }
+
+    .name {
+        margin-right: 20px;
+        cursor: pointer;
+        font-size: 12pt
+    }
+
+    .click {
+        cursor: pointer;
+        display: flex;
+    }
+
+    .main_header_box {
+        display: flex;
+        flex-direction: row;
+        width: 35vw;
+        justify-content: space-evenly;
+        border:1px solid red;
+
+    }
 }

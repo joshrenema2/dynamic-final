@@ -27,7 +27,7 @@ const Banana = () => {
               <div className="button_nav">
                 <Link href="/4-sub-options/compost"><Button text="Back to Compost" width="150px" className="button" /></Link>
                 <Link href="/1-home"><Button text="Home" width="150px" className="button" /></Link>
-                <Link href="/3-waste-options"><Button text="Back to Waste Types" className="button" /></Link>
+                <Link href="/3-waste-options"><Button text="Waste Types" className="button" /></Link>
               </div>
             </div>
           </div>

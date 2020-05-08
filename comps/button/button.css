@@ -1,41 +1,96 @@
-.button_box {
-    background-color:#f2f2f2;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color:#141414;
-    cursor: pointer;
-    margin: 5px 10px;
-    font-family: 'Baloo Paaji 2';
-    display: inline-block;
-    text-align: center;
-    margin:auto;
-    font-size:16pt;
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .button_container{
+        width:100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .button_box {
+        background-color:#f2f2f2;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color:#141414;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-family: 'Baloo Paaji 2';
+        display: inline-block;
+        text-align: center;
+        font-size:12pt;
+        width:auto;
+        max-width:150px;
+        height:auto;
+
+    }
+    
+    .button_box:hover {
+        -webkit-animation: bounce .4s infinite alternate;
+        -moz-animation: bounce .4s infinite alternate;
+        animation: bounce .4s infinite alternate;
+    }
+    
+    @-webkit-keyframes bounce {
+    to { -webkit-transform: scale(1.05); }
+    }
+    @-moz-keyframes bounce {
+    to { -moz-transform: scale(1.05); }
+    }
+    @keyframes bounce {
+    to { transform: scale(1.05); }
+    }
+    /* .button_box_inner:hover{
+        background-color:#28524b;
+        color: #f2f2f2;
+    } */
+    
+    .button_box_inner::selection{
+        background:none;
+        color:none;
+    } 
 }
 
-.button_box:hover {
-    -webkit-animation: bounce .4s infinite alternate;
-    -moz-animation: bounce .4s infinite alternate;
-    animation: bounce .4s infinite alternate;
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .button_box {
+        background-color:#f2f2f2;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color:#141414;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-family: 'Baloo Paaji 2';
+        display: inline-block;
+        text-align: center;
+        margin:auto;
+        font-size:16pt;
+        min-width:150px;
+    }
+    
+    .button_box:hover {
+        -webkit-animation: bounce .4s infinite alternate;
+        -moz-animation: bounce .4s infinite alternate;
+        animation: bounce .4s infinite alternate;
+    }
+    
+    @-webkit-keyframes bounce {
+    to { -webkit-transform: scale(1.05); }
+    }
+    @-moz-keyframes bounce {
+    to { -moz-transform: scale(1.05); }
+    }
+    @keyframes bounce {
+    to { transform: scale(1.05); }
+    }
+    /* .button_box_inner:hover{
+        background-color:#28524b;
+        color: #f2f2f2;
+    } */
+    
+    .button_box_inner::selection{
+        background:none;
+        color:none;
+    } 
 }
 
-@-webkit-keyframes bounce {
-to { -webkit-transform: scale(1.05); }
-}
-@-moz-keyframes bounce {
-to { -moz-transform: scale(1.05); }
-}
-@keyframes bounce {
-to { transform: scale(1.05); }
-}
-/* .button_box_inner:hover{
-    background-color:#28524b;
-    color: #f2f2f2;
-} */
 
-.button_box_inner::selection{
-    background:none;
-    color:none;
-} 
 
 
 

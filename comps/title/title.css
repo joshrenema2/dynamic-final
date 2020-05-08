@@ -1,6 +1,24 @@
-.title{
-    font-family: 'Baloo Paaji 2';
-    color:#141414;
-    display: inline-block;
-    text-align: center;
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .title_container{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    .title{
+        font-family: 'Baloo Paaji 2';
+        color:#141414;
+        display: flex;
+        text-align: center;
+        font-size:24pt;
+    }
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .title{
+        font-family: 'Baloo Paaji 2';
+        color:#141414;
+        display: inline-block;
+        text-align: center;
+        font-size:48pt;
+    }
 }
