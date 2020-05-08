@@ -4,7 +4,7 @@
         color:#141414;
         margin: 0px 10px 40px 35px;
         display: inline-block;
-        text-align:center;
+        align-items: center;
         font-size:12pt;
         max-width:auto;
 }
