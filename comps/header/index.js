@@ -8,7 +8,7 @@ const accountimg = require('../../img/account.png')
 const menuimg = require('../../img/menu-icon.png')
 
 const Header = () => <div className="main_header">
-    <div><Menua className="hamburger_menu"></Menua>
+    <div><Menua id="hamburger"></Menua>
     </div>
     <div className="leftflex">
         <Link href="../../1-home"><img src={defaultimg} className="logo" /></Link>
