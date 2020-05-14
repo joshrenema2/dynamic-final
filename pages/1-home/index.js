@@ -5,6 +5,7 @@ import Icon from "../../comps/icons";
 import Header from "../../comps/header";
 import Link from "next/link";
 
+
 const dark_logo = require("../../img/logo_dark_green.png");
 const PageOne = () => {
 

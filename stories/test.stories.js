@@ -10,6 +10,7 @@ import SubOptions from "../pages/4-sub-options/compost";
 import How from "../pages/5-how/compost/banana";
 import Why from "../pages/6-why/compost/banana";
 import Header from "../comps/header";
+import Menu from "../comps/menu"; 
 
 export default {
     title: "Recycle Toss",
@@ -37,3 +38,4 @@ export const MyWhy = () => <Why />;
 
 export const MainHeader = () => <Header />; 
 
+export const HamburgerMenu = () => <Menu />; 
