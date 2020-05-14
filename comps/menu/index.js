@@ -13,8 +13,11 @@ import "./menu.css";
       return (
         <Menu>
           <a id="home" className="menu-item" href="/1-home">Home</a>
+          <br></br>
           <a id="about" className="menu-item" href="/2-learn">Learn</a>
+          <br></br>
           <a id="contact" className="menu-item" href="/7-importance">Importance</a>
+          <br></br>
           <a id="contact" className="menu-item" href="/3-waste-options">Waste Options</a>
         </Menu>
       );

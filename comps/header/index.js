@@ -1,13 +1,14 @@
 import React from "react";
 import "./header.css"
 import Link from "next/link";
+import Menua from "../menu"; 
 
 const defaultimg = require('../../img/logo_light_green.png')
 const accountimg = require('../../img/account.png')
 const menuimg = require('../../img/menu-icon.png')
 
 const Header = () => <div className="main_header">
-    <div><img src={menuimg} className="hamburger_menu" />
+    <div><Menua className="hamburger_menu"></Menua>
     </div>
     <div className="leftflex">
         <Link href="../../1-home"><img src={defaultimg} className="logo" /></Link>
