@@ -8,6 +8,7 @@ import Header from "../../comps/header";
 import Link from "next/link";
 
 
+
 const PageTwo = () => {
 
     return <div>
