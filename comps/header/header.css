@@ -22,7 +22,7 @@
         display: flex;
     }
 
-    .hamburger_menu {
+    #hamburger {
         max-height: 35px;
         cursor: pointer;
         margin-left: 1.5em;
@@ -37,15 +37,21 @@
         top: 1.59em;
     }
 
-    .settings {}
+    .settings {
+
+    }
 
     .accountimage {
         height: 0px;
     }
 
-    .line {}
+    .line {
+        
+    }
 
-    .rightflex {}
+    .rightflex {
+
+    }
 
     .name {
         font-size: 0pt;
@@ -97,7 +103,11 @@
         left: 0;
     }
 
-    .hamburger_menu {
+    .bm-burger-bars {
+        display: none; 
+    }
+
+    .bm-menu-wrap {
         display: none;
     }
 
