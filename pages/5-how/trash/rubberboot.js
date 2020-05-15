@@ -22,8 +22,7 @@ const Boots = () => {
             <div className="organic_option_child">
               <Icon img={boots} />
               <Caption
-                text="Boots bags can be stored in your home, and dropped off to a Recycling depot in bulk.  
-                "
+                text="You can drop off your old rain boots at your local donation bin."
               />
               <Link href="/6-why/trash/rubberboot">
                 <Button text="Next" />
