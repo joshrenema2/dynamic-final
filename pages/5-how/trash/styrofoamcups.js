@@ -22,8 +22,7 @@ const Cup = () => {
             <div className="organic_option_child">
               <Icon img={cup} />
               <Caption
-                text="Cup bags can be stored in your home, and dropped off to a Recycling depot in bulk.  
-                "
+                text="Styrofoam cups can be saved up in your home, and dropped off at a local recycling depot."
               />
               <Link href="/6-why/trash/styrofoamcups">
                 <Button text="Next" />
